@@ -1,0 +1,19 @@
+.contact-unit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.delete-contact {
+  cursor: pointer;
+  border: 1px solid gold;
+  padding: 7px 15px;
+  background-color: #fff;
+}
+
+.delete-contact:hover,
+.delete-contact:focus {
+  /* border: 1px solid gold; */
+  background-color: gold;
+}
